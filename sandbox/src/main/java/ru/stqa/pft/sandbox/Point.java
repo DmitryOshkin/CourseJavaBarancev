@@ -5,9 +5,9 @@ public class Point {
   public double x;
   public double y;
 /* Конструктор класса Point */
-  public Point (double px, double py) {
-    this.x = px;
-    this.y = py;
+  public Point (double x, double y) {
+    this.x = x;
+    this.y = y;
   }
 
   public double distance(Point p2) {
