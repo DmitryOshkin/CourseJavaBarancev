@@ -1,17 +1,13 @@
 package ru.stqa.pft.addressbook;
 
 import java.util.concurrent.TimeUnit;
+
 import org.testng.annotations.*;
 import org.openqa.selenium.*;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
-
-
-
 public class GroupCreationTests {
-  public WebDriver wd;
+  private WebDriver wd;
 
 
   @BeforeMethod(alwaysRun = true)
