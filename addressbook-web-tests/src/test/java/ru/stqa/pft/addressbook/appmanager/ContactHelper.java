@@ -36,7 +36,7 @@ public class ContactHelper extends BaseHelper {
   }
 
   public void closeAlertAccept() {
-    wd.switchTo().alert().accept();
+    alertAccept();
   }
 
   public void selectedContacts() {

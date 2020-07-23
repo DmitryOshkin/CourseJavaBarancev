@@ -40,4 +40,7 @@ public class BaseHelper {
     }
   }
 
+  protected void alertAccept() {
+    wd.switchTo().alert().accept();
+  }
 }
