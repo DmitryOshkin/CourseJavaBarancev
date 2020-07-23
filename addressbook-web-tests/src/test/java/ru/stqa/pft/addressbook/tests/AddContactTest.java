@@ -3,10 +3,10 @@ package ru.stqa.pft.addressbook.tests;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.ContactData;
 
-public class AddNewContactTest extends TestBase {
+public class AddContactTest extends TestBase {
 
   @Test
-  public void testAddNewContact() throws Exception {
+  public void testAddContact() throws Exception {
 
     app.getContactHelper().initAddContact();
     app.getContactHelper().fillContactForm(new ContactData("Ivanov", "Petr", "Moscow, Petrovka 38", "mail1@mail.ru", "79020000001"));
